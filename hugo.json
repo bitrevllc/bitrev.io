@@ -20,5 +20,10 @@
     ],
     "favicon": "/favicon.ico",
     "brandLogo": "/images/bitrev_transparent.png"
+   },
+   "caches": {
+      "images": {
+         "dir": ":cacheDir/images"
+      }
    }
 }
