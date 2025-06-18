@@ -5,13 +5,17 @@
    "params": {
     "release": "2025-07-18",
     "background": null,
-    "title": "BitRev",
+    "title": " ",
     "message": "COMING SOON",
     "description": null,
     "SocialIcons": [
         {
             "name": "linkedin",
             "url": "http://linkedin.com/company/bitrevllc"
+        },
+        {
+            "name": "email",
+            "url": "contact@bitrev.io"
         }
     ],
     "favicon": "/favicon.ico",
