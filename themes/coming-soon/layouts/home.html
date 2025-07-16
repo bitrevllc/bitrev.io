@@ -33,7 +33,11 @@
             {{ end }}
             <hr>
             <p id="demo"></p>
-            <div id="countdown" data-release="{{ .Site.Params.release }}"></div>
+
+            {{ if .Site.Params.release }}
+                <div id="countdown" data-release="{{ .Site.Params.release }}"></div>
+            {{ end }}
+       
         </div>
         <div class="bottomleft">
             <p>
